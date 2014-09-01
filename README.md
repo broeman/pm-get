@@ -1,7 +1,7 @@
-pm-get
-======
+pm-get - Package Manager in Go 
+==============================
 
-** Package Manager in Go Language - User Application **
+## User Application
 BSD-License applies, see LICENSE for more information.
 
 ### Current Version: 0.1a
