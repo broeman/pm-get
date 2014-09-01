@@ -7,7 +7,7 @@
 package main
 
 import (
-	"github.com/broeman/gopack/cmd" // using CLI command args
+	"github.com/broeman/pm-get/cmd" // using CLI command args
 	"github.com/codegangsta/cli"
 	"os"
 	"runtime"
