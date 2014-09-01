@@ -13,7 +13,7 @@ import (
 	"runtime"
 )
 
-const APP_VER = "0.1 Alpha"
+const APP_VER = "0.1 beta"
 
 func init() {
 	runtime.GOMAXPROCS(runtime.NumCPU())
@@ -28,9 +28,7 @@ func main() {
 		cmd.Install,   // install a package
 		cmd.UnInstall, // uninstall a package
 		cmd.Show,      // show package
-		cmd.Installed, // shows current installed packages, placeholder
 		//cmd.Update,	// update packages
-		cmd.Init, // placeholder initialization
 	}
 	app.Run(os.Args)
 
